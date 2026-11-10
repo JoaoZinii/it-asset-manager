@@ -1,0 +1,25 @@
+{
+  "name": "itam-backend",
+  "version": "1.0.0",
+  "description": "API do IT Asset Manager (Node.js, Express 5, PostgreSQL)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "demo": "node --watch src/demo-server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parse": "^5.6.0",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "helmet": "^8.0.0",
+    "pdfkit": "^0.15.2",
+    "pg": "^8.13.1",
+    "zod": "^3.24.1"
+  }
+}
